@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url('back2.jpg');
+    background-size: cover;
+    background-position:top;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration:  none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: larger;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width:  100%;
+    margin-top: 5%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 35px;
+    margin-top: 50px;
+}
+.content p{
+    margin-top: 50px;
+    font-size: 25px;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+span{
+    background:white;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.welcome{
+    margin-top: 45px;
+}
+.welcome h2{
+    text-align: center;
+    font-size: 35px;
+}
+.welcome img{
+    margin-right: 200px;
+    float: right;
+    width: 300px;
+    height: 300px;
+    border-radius: 75%;
+}
+.welcome p{
+    text-align: justify;
+    margin-top: 50px;
+    padding: 0 300px;
+    font-size: 25px;
+}
+.sample{
+    margin-top: 10px;
+    background-image: url(prjs.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.h21{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #2D42A3;
+}
+.ul1 li{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+
+}
+.ul2 li{
+    margin-left: 40px;
+    text-align: center;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+  
+}
+.joker{
+    margin-left: 30px;
+    width: 300px;
+    height: 500px;;
+}
+.scam1992{
+    width: 300px;
+    margin-left: 30px;
+    height: 500px;;
+}
+.avengers{
+    width: 300px;
+    margin-left: 30px;
+    height: 500px;;
+}
+.johnwick{
+    width: 350px;
+    margin-left: 30px;
+    height: 500px;;
+}
+.arjunreddy{
+    width: 300px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+.joker1{
+    margin-left: 40px;
+}
+.scam19921{
+    padding-left: 1%;
+    margin-left: 40px;
+}
+.avengers1{
+    padding-left: 1%;
+    margin-left: 40px;
+}
+.johnwick1{
+    padding-left: 50px;
+    margin-left: 40px;
+}
+.arjunreddy1{
+    padding-left: 0.2%;
+    margin-left: 40px;
+}
+.videos{
+    margin-top: 10px;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.h22{
+    padding-top: 30px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.ul3 li{
+  margin-top: 10px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+
+}
+.h23{
+  padding-top: 30px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: #ff6666;
+}
+.nt{
+  margin-left: 250px;
+  width: 250px;
+  height:250px;
+  border-radius: 50%;
+}
+
+.nt1{
+  margin-left: 100px;
+  width: 250px;
+  height:250px;
+  border-radius: 50%;
+}
+
+.nt2{
+  margin-left: 100px;
+  width: 250px;
+  height:250px;
+  border-radius: 50%;
+}
+
+.ul4 li{
+  text-align: center;
+  margin-top: 10px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+.li1{
+  font-size: 30px;
+  padding-left: 16%;
+}
+.li2{
+  font-size: 30px;
+  padding-left: 12%;
+}
+.li3{
+  font-size: 30px;
+  padding-left: 10%;
+}
+
+
+.h11{
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  padding-bottom: 10px;
+}
+.h11:after{
+  content: '';
+  background: limegreen;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.img-res{
+  width: 250px;
+  height: 250px;
+  border-radius: 75%;
+}
+
+.ul5{
+  margin-left: 13%;
+}
+
+.ul5 li{
+  margin-top: 30px;
+  margin-left: 5%;
+  text-align: center;
+  color:black;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+.life{
+  margin-top: 30px;
+  text-align: center;
+  background-image: url(t1.jpg);
+  background-size: cover;
+}
+.h24{
+  padding-top: 2%;
+  color: darkblue;
+  font-size: 250%;
+}
+
+.inp-field{
+  margin-left: 35%;
+  padding: 15px 70px;
+}
+
+.b1{
+  border-color: #2D42A3;
+  color: white;
+  border-radius: 0%;  
+  fill: red;
+  background-color: #2D42A3;
+}
+
+.login{
+  margin-top: 50px;
+  background-image: url(1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.h12{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  color: white;
+  font-size: 250%;
+}
+
+.img-res1{
+  width: 250px;
+  height: 250px;
+  border-radius: 75%;
+}
+
+.container{
+  position: relative;
+  background-image: url(1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mySlides {
+  position: relative;
+  padding-left: 20%;
+  display:none;
+  width: 10%;
+  height: 10%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.fuh{
+  width: 100%;
+  height: 100%;
+}
+
+.cform{
+  background-image: url(back3.jpg);
+  display: inline-block;
+  background-size: cover;
+  background-position:top;
+  width: 100%;
+}
+.ul6{
+  padding: 10px 10px;
+}
+
+.ul6 li{
+  color:black;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.c1{
+  margin-left: 0%;
+  padding: 10px 10%;
+}
+
+.c2{
+  margin-left: 0%;
+  padding: 50px 10%;
+}
+.ul3 li{
+  color:black;
+  list-style: none;
+  display: inline;
+  position: relative;
+}
+
+.b3{
+  margin-left: 5%;
+  border-color: darkslateblue;
+  color: white;
+  border-radius: 0%;  
+  fill: red;
+  background-color: darkslateblue;
+}
+
+.h13{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  color: black;
+  font-size: 250%;
+}
+
+.b4{
+  margin-left: 25%;
+  border-color: greenyellow;
+  color: white;
+  font-size: 25px;
+  border-radius: 0%;  
+  fill: red;
+  background-color: greenyellow;
+}
+
+.h25{
+  margin-top: 5%;
+}
+
+.h31{
+  margin-top: 5%;
+}
+
+.map{
+  float: left;
+  margin-left: 5%;
+}
+.ul7{
+  margin-left: 15%;
+}
+.ul7 li{
+  color:black;
+  margin-left: 100px;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+.li4{
+  text-align: right;
+}
+.fa-twitter {
+  padding-left: 40px;
+}
+
+.fa-linkedin {
+  padding-left: 40px;
+}
+
+.fa-google {
+  padding-left: 50px;
+}
+
+.fa-tumblr {
+  padding-left: 50px;
+}
+.ul8{
+  margin-left: 350px;
+}
+.ul8 li{
+  display: inline-block;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.img-val{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.vl {
+
+  border-left: 3px solid limegreen;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.vl1 {
+
+  border-left: 3px solid limegreen;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.ul9{
+  margin-left: 17%;
+}
+
+.ul9 li{
+  margin-top: 30px;
+  margin-left: 5%;
+  text-align: center;
+  color:black;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
